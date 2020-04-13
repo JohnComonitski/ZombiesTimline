@@ -1,0 +1,115 @@
+html,body{
+  height: 600px;
+  width: 1069px;
+  margin: 0px;
+
+}
+
+.float{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn{
+  position: absolute;
+  display: inline-block;
+  background-color: white;
+  width: 40px;
+  height: 17px;
+  border-style: solid;
+  border-width: 2px;
+  margin: 0px;
+  padding: 3px;
+}
+
+.btn:hover{
+  background-color: black;
+  color:white;
+}
+
+#description{
+  width:120px;
+  height: 300px;
+  left:10px;
+  top:100px;
+}
+
+#PlusBtn{
+  width: 120px;
+  left: 10px;
+  top: 85px;
+}
+
+#PlusBtn:hover{
+  opacity: .7;
+}
+
+#MinusBtn{
+  width: 120px;
+  left: 10px;
+  top: 150px;
+}
+
+#MinusBtn:hover{
+  opacity: .7;
+}
+
+#ClockBtn{
+  width: 120px;
+  left: 10px;
+  top: 215px;
+}
+
+#ClockBtn:hover{
+  opacity: .7;
+}
+
+#CounterBtn{
+  width: 120px;
+  left: 10px;
+  top: 290px;
+}
+#CounterBtn:hover{
+  opacity: .7;
+}
+
+#reset{
+  width: 120px;
+  left: 10px;
+  top: 400px;
+}
+
+#reset:hover{
+  opacity: .7;
+}
+
+#backgroundImg,#background{
+  position: absolute;
+  height: 600px;
+  width: 1069px;
+  margin: 0px;
+}
+
+#timeline{
+  position: absolute;
+  width:818px;
+  height:556px;
+  top:22.2px;
+  left:27.5px;
+}
+
+#TimelineImg{
+  width:818px;
+  height:556px;
+}
+
+#guide{
+  /*background-color: red;*/
+  position: absolute;
+  width:140px;
+  height:556px;
+  top:22.2px;
+  left:901.5px;
+}
